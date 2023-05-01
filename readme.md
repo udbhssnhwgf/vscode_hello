@@ -4,9 +4,9 @@
 
 #### 参考
 
-1. [CMake Tools on linux](cmakeqs)
+1. [CMake Tools on linux](https://code.visualstudio.com/docs/cpp/CMake-linux)
     
-2. [CMake 项目创建](cmakecanp)
+2. [CMake 项目创建](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/how-to.md#create-a-new-project)
 
 其实主要是配要在 VS code 上的可视化界面，如何只用命令行的话，只用 CMake 那么和在 linux 上是差不多的。如出现 ```namke -? failed with ``` 则需要加上```-G"MinGw Makefiles"```, **[参考](https://blog.csdn.net/csdndulala/article/details/121390778)**
 
@@ -45,7 +45,7 @@ cmake -G"MinGW Makefiles" ..
 
 #### 环境说明
 1. VS code  
-2. [minGW 64 ](mingw)
+2. [minGW 64 ](https://github.com/niXman/mingw-builds-binaries/releases/download/12.2.0-rt_v10-rev0/x86_64-12.2.0-release-posix-seh-rt_v10-rev0.7z)
 
     如何已安装可跳过
 
@@ -58,7 +58,7 @@ cmake -G"MinGW Makefiles" ..
     ![gcc 命令](image/gcc_cmd.png)
 
 
-3. [CMake](cmake)
+3. [CMake](https://cmake.org/download/)
     CMake 可下载 .msi 与 .zip 安装的，两者的区别不大。.msi 安装时可以在界面选择添加路径到系统变量。如是 .zip 则需要把其目录下的 bin 路径手动添加到系统变量。
 
 4. VS code 中 CMake tools 安装
