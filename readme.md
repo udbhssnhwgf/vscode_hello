@@ -6,7 +6,7 @@
 
 1. [CMake Tools on linux](cmakeqs)
     
-2. [CMake 项目创建](cmake canp)
+2. [CMake 项目创建](cmakecanp)
 
 其实主要是配要在 VS code 上的可视化界面，如何只用命令行的话，只用 CMake 那么和在 linux 上是差不多的。如出现 ```namke -? failed with ``` 则需要加上```-G"MinGw Makefiles"```, **[参考](https://blog.csdn.net/csdndulala/article/details/121390778)**
 
@@ -75,4 +75,4 @@ cmake -G"MinGW Makefiles" ..
 [mingw]:[https://github.com/niXman/mingw-builds-binaries/releases/download/12.2.0-rt_v10-rev0/x86_64-12.2.0-release-posix-seh-rt_v10-rev0.7z]
 [cmake]:[https://cmake.org/download/]
 [cmakeqs]:[https://code.visualstudio.com/docs/cpp/CMake-linux]
-[cmake canp]:[https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/how-to.md#create-a-new-project]
+[cmakecanp]:[https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/how-to.md#create-a-new-project]
